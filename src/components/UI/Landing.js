@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import Logo from "Logo";
+
 export default class Landing extends Component {
   render() {
     return (

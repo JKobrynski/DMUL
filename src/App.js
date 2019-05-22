@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import Logo from './logo.svg';
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -30,7 +29,7 @@ function App() {
           </a>
           <button className="btn btn-dark">siusiak</button>
         </header> */}
-      </div>
+      </div>  
     </Router>
   );
 }
