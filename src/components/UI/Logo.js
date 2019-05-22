@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 
-import Logo from "./logo.svg";
+import LogoSvg from "../../logo.svg";
 
-export default class Logo extends Component {
+class Logo extends Component {
   render() {
     return (
-      <div class="container">
-        <img src={Logo} alt="Logo" />
+      <div className="container mt-5 mb-5 Svg-logo">
+        <img className="App-logo Svg-logo" src={LogoSvg} alt="Logo" />
       </div>
     );
   }
 }
+
+export default Logo;
