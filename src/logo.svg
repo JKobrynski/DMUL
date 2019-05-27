@@ -55,53 +55,51 @@
    id="polygon1495" />
 
 </g>
-    <ellipse
-       cx="-171.64229"
-       cy="-117.64799"
-       rx="20.985905"
-       ry="58.96151"
-       transform="matrix(-0.93669063,-0.35015805,0.48308809,-0.87557175,0,0)"
+    <path
        id="path1513-8"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.99642205;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <ellipse
-       cx="-4.7572265"
-       cy="-194.05113"
-       rx="20.985905"
-       ry="58.96151"
-       transform="matrix(-0.77159108,0.63611886,-0.51672335,-0.85615243,0,0)"
+       d="m -149.8407,-125.98046 a 21.943628,59.657448 0 0 1 -21.94363,59.657447 21.943628,59.657448 0 0 1 -21.94363,-59.657447 21.943628,59.657448 0 0 1 21.94363,-59.65745 21.943628,59.657448 0 0 1 21.94363,59.65745 z"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:1.02490056;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(-0.9523307,-0.30506759,0.47464325,-0.88017827,0,0)" />
+    <path
        id="path1513-8-1"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.99642205;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <ellipse
-       cx="-166.87221"
-       cy="76.431732"
-       rx="20.985905"
-       ry="58.96151"
-       transform="matrix(-0.16509955,-0.98627691,0.99981143,-0.01941933,0,0)"
+       d="m 16.067492,-194.1402 a 21.731632,59.88335 0 0 1 -21.7316327,59.88335 21.731632,59.88335 0 0 1 -21.7316323,-59.88335 21.731632,59.88335 0 0 1 21.7316323,-59.88335 21.731632,59.88335 0 0 1 21.7316327,59.88335 z"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:1.02186704;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(-0.8066814,0.59098656,-0.51287288,-0.85846457,0,0)" />
+    <path
        id="path1513-4"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.99642205;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       d="m -144.75006,78.201813 a 22.088776,58.434784 0 0 1 -22.08878,58.434787 22.088776,58.434784 0 0 1 -22.08877,-58.434787 22.088776,58.434784 0 0 1 22.08877,-58.434784 22.088776,58.434784 0 0 1 22.08878,58.434784 z"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:1.01769292;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(-0.15545115,-0.98784358,0.99978662,-0.02065689,0,0)" />
     <text
        id="text5305"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111126px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        xml:space="preserve"><textPath
          id="textPath5323"
          xlink:href="#path1513-4"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111126px;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;opacity:0.98000004;stroke-width:0.26458332"
    id="tspan5307">MULTIMEDIA</tspan></textPath></text>
     <text
        id="text5313"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111126px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        xml:space="preserve"><textPath
          id="textPath5332"
          xlink:href="#path1513-8"><tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111126px;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
    id="tspan5315">KOBRYŃSKI</tspan></textPath></text>
     <text
        id="text5355"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111126px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       xml:space="preserve"><textPath
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve">
+       <textPath
          id="textPath5357"
          xlink:href="#path1513-8-1"><tspan
    id="tspan5353"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111126px;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">LITKOWSKI</tspan></textPath></text>
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">LITKOWSKI
+
+   </tspan>
+
+   </textPath>
+
+   </text>
   </g>
 </svg>

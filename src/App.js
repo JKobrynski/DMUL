@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Logo />
+      <img src={Logo}   alt="Multimedia 2019"/>
         <p>Norbert Litokoski, Julian Kobryński</p>
         <a
           className="App-link"
@@ -17,7 +17,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </div> 
   );
 }
 
