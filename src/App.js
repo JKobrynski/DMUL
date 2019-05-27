@@ -8,6 +8,7 @@ import Navbar from "./components/UI/Navbar";
 import Example from "./components/Playground/Example";
 import Landing from "./components/UI/Landing";
 import Footer from "./components/UI/Footer";
+import Homepage from "./components/React/Homepage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/" component={Landing} />
         <div className="container">
           <Route exact path="/example" component={Example} />
+          <Route exact path="/react" component={Homepage} />
         </div>
         {/* <header className="App-header">
           <p>Norbert Litokoski, Julian Kobryński</p>

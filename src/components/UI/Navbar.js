@@ -22,7 +22,7 @@ class Navbar extends Component {
         <div className="collapse navbar-collapse" id="navbarColor03">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
-              <a className="nav-link" href="/example">
+              <a className="nav-link" href="/react">
                 Kobryński
               </a>
             </li>
