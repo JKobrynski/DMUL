@@ -8,7 +8,11 @@ import Navbar from "./components/UI/Navbar";
 import Example from "./components/Playground/Example";
 import Landing from "./components/UI/Landing";
 import Footer from "./components/UI/Footer";
+
+// Import react section components
 import Homepage from "./components/React/Homepage";
+import ReactPage from "./components/React/ReactPage";
+import ReactNativePage from "./components/React/ReactNativePage";
 
 function App() {
   return (
@@ -19,19 +23,9 @@ function App() {
         <div className="container">
           <Route exact path="/example" component={Example} />
           <Route exact path="/react" component={Homepage} />
+          <Route exact path="/react/react-native" component={ReactNativePage} />
+          <Route exact path="/react/reactjs" component={ReactPage} />
         </div>
-        {/* <header className="App-header">
-          <p>Norbert Litokoski, Julian Kobryński</p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          <button className="btn btn-dark">siusiak</button>
-        </header> */}
         <Footer />
       </div>
     </Router>

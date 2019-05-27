@@ -41,7 +41,7 @@ class Homepage extends Component {
             <div className="row">
               <div className="col-md-6 m-auto text-center">
                 <div
-                  onClick={() => console.log("native")}
+                  onClick={() => this.props.history.push("/react/react-native")}
                   className="card text-white bg-danger mb-3"
                 >
                   <div className="card-body">
@@ -54,7 +54,7 @@ class Homepage extends Component {
               </div>
               <div className="col-md-6 m-auto text-center">
                 <div
-                  onClick={() => console.log("react.js")}
+                  onClick={() => this.props.history.push("/react/reactjs")}
                   className="card text-white bg-success mb-3"
                 >
                   <div className="card-body">

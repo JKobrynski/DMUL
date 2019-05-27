@@ -15,7 +15,7 @@ export default class Togglable extends Component {
     const { type, title } = this.props;
     const { toggle } = this.state;
 
-    const buttonClasses = `btn btn-block btn-${type} mt-5`;
+    const buttonClasses = `btn btn-block btn-${type} mt-4`;
     const containerClasses = `col-md-12 border border-${type} rounded`;
 
     return (
