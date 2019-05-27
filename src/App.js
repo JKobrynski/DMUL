@@ -10,9 +10,12 @@ import Landing from "./components/UI/Landing";
 import Footer from "./components/UI/Footer";
 
 // Import react section components
-import Homepage from "./components/React/Homepage";
+import ReactHomepage from "./components/React/Homepage";
 import ReactPage from "./components/React/ReactPage";
 import ReactNativePage from "./components/React/ReactNativePage";
+
+// Import nn section components
+import NNHomepage from "./components/NeuralNetworks/Homepage";
 
 function App() {
   return (
@@ -22,9 +25,10 @@ function App() {
         <Route exact path="/" component={Landing} />
         <div className="container">
           <Route exact path="/example" component={Example} />
-          <Route exact path="/react" component={Homepage} />
+          <Route exact path="/react" component={ReactHomepage} />
           <Route exact path="/react/react-native" component={ReactNativePage} />
           <Route exact path="/react/reactjs" component={ReactPage} />
+          <Route exact path="/nn" component={NNHomepage} />
         </div>
         <Footer />
       </div>
