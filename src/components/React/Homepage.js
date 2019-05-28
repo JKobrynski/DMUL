@@ -47,13 +47,23 @@ class Homepage extends Component {
                   onClick={() => this.props.history.push("/react/reactjs")}
                   className="card text-white bg-success mb-3"
                 >
-                  <div className="card-body">
+                  <div className="card-body btn btn-success">
                     <h3 className="card-title">React.js</h3>
                     <h4 className="card-text">
                       Więcej informacji, przykładowe componenty.
                     </h4>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div className="row mt-5">
+              <div className="col-md-12">
+                <button
+                  onClick={() => this.props.history.push("/")}
+                  className="btn btn-block btn-outline-warning"
+                >
+                  Powrót
+                </button>
               </div>
             </div>
           </div>

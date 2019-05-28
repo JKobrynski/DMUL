@@ -37,17 +37,19 @@ export default class ReactPage extends Component {
           <div className="row Homepage">
             <div className="col-md-12 col-lg-12 col-xl-12 mt-5">
               <Togglable type="primary" title="Komponent">
-                <h4 className="text-left m-3">
+                <h3 className="text-left m-3">
                   Komponenty to pewnego rodzaju cegiełki, z których budujemy
                   nasz interfejs w aplikacji React.js. W skrócie component jest
                   klasą lub funkcją języka JavaScript, która moze pobierać dane
                   od uzytkownika i zwraca element Reactowy.
-                </h4>
+                </h3>
               </Togglable>
               <div className="row">
                 <div className="col-md-6">
                   <Togglable type="secondary" title="Komponent funkcyjny">
-                    <Functional />
+                    <div className="mt-3">
+                      <Functional />
+                    </div>
                     <img
                       src={FunctionalImg}
                       alt="Code screenshot"
@@ -56,8 +58,10 @@ export default class ReactPage extends Component {
                   </Togglable>
                 </div>
                 <div className="col-md-6">
-                  <Togglable type="warning" title="Komponent klasowy">
-                    <ClassBased />
+                  <Togglable type="danger" title="Komponent klasowy">
+                    <div className="mt-3">
+                      <ClassBased />
+                    </div>
                     <img
                       src={ClassBasedImg}
                       alt="Code Screenshot"
@@ -68,7 +72,7 @@ export default class ReactPage extends Component {
               </div>
               <div className="row">
                 <div className="col-md-12">
-                  <Togglable type="info" title="Zastosowania komponentów">
+                  <Togglable type="info" title="Wybór komponentu">
                     <h3 className="text-left m-3">
                       <strong>Komponentu funkcyjnego</strong> uzywamy w
                       przypadku, gdy chcemy zaprezentować jakiś element, który
@@ -126,6 +130,26 @@ export default class ReactPage extends Component {
                   Przykładowy program
                 </button>
               </div>
+              <div className="col-md-12">
+                <div className="row mt-5">
+                  <div className="col-md-6">
+                    <button
+                      onClick={() => this.props.history.push("/react")}
+                      className="btn btn-block btn-outline-warning"
+                    >
+                      Powrót
+                    </button>
+                  </div>
+                  <div className="col-md-6">
+                    <button
+                      onClick={() => this.props.history.push("/")}
+                      className="btn btn-block btn-warning"
+                    >
+                      Strona domowa
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         ) : (
@@ -164,10 +188,10 @@ export default class ReactPage extends Component {
             </div>
             <div className="col-md-6">
               <button
-                onClick={() => this.props.history.push("/react")}
+                onClick={() => this.props.history.push("/")}
                 className="btn btn-block btn-warning mt-5"
               >
-                Strona Głowna
+                Strona Domowa
               </button>
             </div>
           </div>
