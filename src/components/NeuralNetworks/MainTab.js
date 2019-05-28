@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import NNImage from "../../assets/NNImages/nn.png";
 
-class MainPage extends Component {
+class MainTab extends Component {
   state = {
     selected: null,
     modelSelected: null,
@@ -39,7 +39,7 @@ class MainPage extends Component {
     switch (page.state.modelSelected) {
       case "Input":
         return (
-          <div className="text-info">
+          <div className="text-danger">
             <p>
               <strong>Warstwa wejścia</strong> Tu będzie opis warstwy wejścia Tu
               będzie opis warstwy wejścia Tu będzie opis warstwy wejścia Tu
@@ -57,7 +57,7 @@ class MainPage extends Component {
         );
       case "Output":
         return (
-          <div className="text-info">
+          <div className="text-success">
             <strong>Warstwa wyjścia</strong> Tu będzie opis warstwy wyjścia Tu
             będzie opis warstwy wyjścia Tu będzie opis warstwy wyjścia Tu będzie
             opis warstwy wyjścia
@@ -96,7 +96,7 @@ class MainPage extends Component {
                 <button
                   name="Input"
                   onClick={page.onClickModel}
-                  className="btn btn-outline-danger"
+                  className="btn btn-outline-danger btn-block"
                 >
                   Input
                 </button>
@@ -105,7 +105,7 @@ class MainPage extends Component {
                 <button
                   name="Hidden"
                   onClick={page.onClickModel}
-                  className="btn btn-outline-info"
+                  className="btn btn-outline-info btn-block"
                 >
                   Hidden
                 </button>
@@ -114,7 +114,7 @@ class MainPage extends Component {
                 <button
                   name="Output"
                   onClick={page.onClickModel}
-                  className="btn btn-outline-success"
+                  className="btn btn-outline-success btn-block"
                 >
                   Output
                 </button>
@@ -164,4 +164,4 @@ class MainPage extends Component {
   }
 }
 
-export default MainPage;
+export default MainTab;
