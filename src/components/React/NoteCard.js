@@ -5,7 +5,7 @@ function NoteCard(props) {
     <div className="card text-white bg-info mb-3">
       <h4 className="card-header ">{props.note.title}</h4>
       <div className="card-body">
-        <h6 className="card-text">{props.note.body}</h6>
+        <h5 className="card-text">{props.note.body}</h5>
       </div>
     </div>
   );

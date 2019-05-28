@@ -19,7 +19,10 @@ class Homepage extends Component {
               wirtualnym i prawdziwym DOM i aktualizuje zmiany.
             </h4>
           </Togglable>
-          <Togglable type="secondary" title="Kto wykorzystuje tę technologię?">
+          <Togglable
+            type="secondary"
+            title="Gdzie wykorzystywana jest ta technologia?"
+          >
             <h4 className="text-left m-3">
               Obecnie React.js jest wykorzystywany na stronach internetowych
               takich jak Netflix, Imgur, PayPal, Archive.org, Gamepedia, czy
@@ -37,31 +40,18 @@ class Homepage extends Component {
               w 2015 roku.
             </h4>
           </Togglable>
-          <div className="col-md-12 mt-5">
+          <div className="col-md-12 mt-4">
             <div className="row">
-              <div className="col-md-6 m-auto text-center">
-                <div
-                  onClick={() => this.props.history.push("/react/react-native")}
-                  className="card text-white bg-danger mb-3"
-                >
-                  <div className="card-body">
-                    <h3 className="card-title">React Native</h3>
-                    <h5 className="card-text">
-                      Przykład prostej aplikacji mobilnej
-                    </h5>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6 m-auto text-center">
+              <div className="col-md-12 m-auto text-center">
                 <div
                   onClick={() => this.props.history.push("/react/reactjs")}
                   className="card text-white bg-success mb-3"
                 >
                   <div className="card-body">
                     <h3 className="card-title">React.js</h3>
-                    <h5 className="card-text">
+                    <h4 className="card-text">
                       Więcej informacji, przykładowe componenty.
-                    </h5>
+                    </h4>
                   </div>
                 </div>
               </div>

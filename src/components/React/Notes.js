@@ -48,6 +48,7 @@ export default class Notes extends Component {
 
     return (
       <div>
+        <h2 className="text-lead mt-3 mb-3">Notatki</h2>
         {notesContent}
         {error ? <div className="alert alert-danger">{error}</div> : null}
         <TextFieldGroup
