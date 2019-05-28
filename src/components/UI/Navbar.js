@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import ReactAudioPlayer from "react-audio-player";
+import Audio from "../../assets/audio/background.mp3";
 
 class Navbar extends Component {
   render() {
@@ -32,7 +34,7 @@ class Navbar extends Component {
               </a>
             </li>
           </ul>
-          <form className="form-inline my-2 my-lg-0">
+          {/* <form className="form-inline my-2 my-lg-0">
             <input
               className="form-control mr-sm-2"
               type="text"
@@ -41,7 +43,8 @@ class Navbar extends Component {
             <button className="btn btn-secondary my-2 my-sm-0" type="submit">
               Search
             </button>
-          </form>
+          </form> */}
+          <ReactAudioPlayer src={Audio} autoPlay controls loop />
         </div>
       </nav>
     );

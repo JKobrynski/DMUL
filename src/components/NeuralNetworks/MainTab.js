@@ -40,27 +40,30 @@ class MainTab extends Component {
       case "Input":
         return (
           <div className="text-danger">
-            <p>
-              <strong>Warstwa wejścia</strong> Tu będzie opis warstwy wejścia Tu
-              będzie opis warstwy wejścia Tu będzie opis warstwy wejścia Tu
-              będzie opis warstwy wejścia
+            <p className="h5 text-justify m-2">
+              <strong>Warstwa wejścia</strong> &ndash; ta warstwa służy do
+              przekazania odpowiednio przetworzonych (na liczby) danych
+              wejściowych do dalszych warstw sieci
             </p>
           </div>
         );
       case "Hidden":
         return (
           <div className="text-info">
-            <strong>Warstwa ukryta</strong> Tu będzie opis warstwy ukrytej Tu
-            będzie opis warstwy ukrytej Tu będzie opis warstwy ukrytej Tu będzie
-            opis warstwy ukrytej
+            <p className="h5 text-justify m-2">
+              <strong>Warstwa ukryta</strong> &ndash; najważniejsza warstwa. To
+              ona przetwarza, przyjęte w warstwie wejścia, dane, uczy sieć i
+              wykonuje obliczenia
+            </p>
           </div>
         );
       case "Output":
         return (
           <div className="text-success">
-            <strong>Warstwa wyjścia</strong> Tu będzie opis warstwy wyjścia Tu
-            będzie opis warstwy wyjścia Tu będzie opis warstwy wyjścia Tu będzie
-            opis warstwy wyjścia
+            <p className="h5 text-justify m-2">
+              <strong>Warstwa wyjścia</strong> &ndash; w tej warstwie dostajemy
+              przetworzone, gotowe do interpretacji dane
+            </p>
           </div>
         );
       case null:
