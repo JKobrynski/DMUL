@@ -6,7 +6,7 @@ import MainPage from "./MainPage";
 class Homepage extends Component {
   render() {
     return (
-      <div className="container Homepage mt-5">
+      <div className="container m-5 ">
         <div className="row">
           <Togglable type="secondary" title="Czym są sieci neuronowe?">
             <div className="container">

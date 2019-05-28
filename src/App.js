@@ -20,10 +20,10 @@ import NNHomepage from "./components/NeuralNetworks/Homepage";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div id="page-container" className="App ">
         <Navbar />
         <Route exact path="/" component={Landing} />
-        <div className="container">
+        <div id="content-wrap" className="container">
           <Route exact path="/example" component={Example} />
           <Route exact path="/react" component={ReactHomepage} />
           <Route exact path="/react/react-native" component={ReactNativePage} />

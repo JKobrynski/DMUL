@@ -5,28 +5,31 @@ import NNImage from "../../assets/NNImages/nn.png";
 class MainPage extends Component {
   state = {
     selected: null,
-    modelSelected: null
+    modelSelected: null,
+    divWidth: 9
   };
 
   onClick = event => {
     var name = event.target.name;
-    if (this.state.selected != name) {
-      this.setState({ selected: name });
+    if (this.state.selected !== name) {
+      this.setState({ selected: name, divWidth: 9 });
     } else {
-      this.setState({ selected: null });
+      this.setState({ selected: null, divWidth: 9 });
     }
   };
 
   onClickModel = event => {
     var name = event.target.name;
-    if (this.state.modelSelected != name) {
+    if (this.state.modelSelected !== name) {
       this.setState({
         selected: this.state.selected,
+        divWidth: 6,
         modelSelected: name
       });
     } else {
       this.setState({
         selected: this.state.selected,
+        divWidth: 9,
         modelSelected: null
       });
     }
@@ -76,6 +79,7 @@ class MainPage extends Component {
               <iframe
                 width="560"
                 height="315"
+                title="Jak to działa?"
                 src="https://www.youtube.com/embed/rEDzUT3ymw4"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -116,10 +120,12 @@ class MainPage extends Component {
                 </button>
               </div>
             </div>
-            <div className="col NNImage">
-              <img src={NNImage} />
+            <div className={"col-" + this.state.divWidth + " NNImage"}>
+              <img alt="Model sieci neuronowej" src={NNImage} />
             </div>
-            <div className="col-3">{page.getModelDiv(page)}</div>
+            <div className={"col-" + (9 - this.state.divWidth)}>
+              {page.getModelDiv(page)}
+            </div>
           </div>
         );
       case null:
@@ -130,7 +136,7 @@ class MainPage extends Component {
   };
 
   render() {
-    const { selected } = this.state;
+    const { selected, divWidth } = this.state;
 
     return (
       <div>
