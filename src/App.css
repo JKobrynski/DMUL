@@ -72,6 +72,12 @@ html {
   border-radius: 5%;
 }
 
+.LandingImage {
+  border-radius: 5%;
+  width: 65%;
+  height: auto;
+}
+
 .NNImage > img {
   width: 45%;
   height: auto;
