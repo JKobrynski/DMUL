@@ -95,7 +95,29 @@ class Homepage extends Component {
             </Togglable>
           </div>
           <div className="col-6">
-            <Togglable type="success" title="Historia" />
+            <Togglable type="success" title="Historia">
+              <div className="container">
+                <div className="row">
+                  <ul className="h4 text-justify">
+                    <li className="h4 text-justify mt-3">
+                      1943 &ndash; model neuronu McCullocha-Pittsa
+                    </li>
+                    <li className="h4 text-justify mt-3">
+                      1958 &ndash; perceptron, najprostsza sieć
+                    </li>
+                    <li className="h4 text-justify mt-3">
+                      1969 &ndash; problem z perceptronem
+                    </li>
+                    <li className="h4 text-justify mt-3">
+                      1986 &ndash; propagacja wsteczna
+                    </li>
+                    <li className="h4 text-justify mt-3">
+                      2006 &ndash; uczenie głębokie
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </Togglable>
           </div>
         </div>
       </div>
