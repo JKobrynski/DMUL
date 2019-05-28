@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ReactAudioPlayer from "react-audio-player";
 import Audio from "../../assets/audio/background.mp3";
+import PanPawel from "../../assets/audio/panpawel.mp3";
 
 class Navbar extends Component {
   render() {
@@ -44,7 +45,7 @@ class Navbar extends Component {
               Search
             </button>
           </form> */}
-          <ReactAudioPlayer src={Audio} autoPlay controls loop />
+          <ReactAudioPlayer src={PanPawel} autoPlay controls loop />
         </div>
       </nav>
     );
