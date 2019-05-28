@@ -78,6 +78,11 @@ html {
   height: auto;
 }
 
+.TFImage {
+  width: auto;
+  height: 15rem;
+}
+
 .NNImage > img {
   width: 45%;
   height: auto;
