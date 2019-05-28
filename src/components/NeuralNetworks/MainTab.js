@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import NNImage from "../../assets/NNImages/nn.png";
 
-class MainPage extends Component {
+class MainTab extends Component {
   state = {
     selected: null,
     modelSelected: null,
@@ -164,4 +164,4 @@ class MainPage extends Component {
   }
 }
 
-export default MainPage;
+export default MainTab;
