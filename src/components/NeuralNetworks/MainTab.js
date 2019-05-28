@@ -141,22 +141,26 @@ class MainTab extends Component {
     return (
       <div>
         <div className="row">
-          <div className="col-md center mb-5">
+          <div className="col-1 mt-5 mb-5" />
+          <div className="col-5 mt-5 mb-5">
             <button
               onClick={this.onClick}
               name="Movie"
-              className="btn btn-primary ml-5 mr-5"
+              className="btn btn-block btn-lg btn-primary"
             >
               Jak to działa?
             </button>
+          </div>
+          <div className="col-5 mt-5 mb-5">
             <button
               onClick={this.onClick}
               name="Model"
-              className="btn btn-primary ml-5 mr-5"
+              className="btn btn-block btn-lg btn-primary"
             >
               Model sieci
             </button>
           </div>
+          <div className="col-1 mt-5 mb-5" />
         </div>
         {this.getDiv(this)}
       </div>
