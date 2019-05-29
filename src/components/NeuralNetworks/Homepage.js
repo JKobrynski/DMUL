@@ -120,6 +120,18 @@ class Homepage extends Component {
             </Togglable>
           </div>
         </div>
+        <div className="row mt-5">
+          <div className="col-md-2" />
+          <div className="col-md-8">
+            <button
+              onClick={() => this.props.history.push("/")}
+              className="btn btn-block btn-lg btn-outline-warning"
+            >
+              Powrót
+            </button>
+          </div>
+          <div className="col-md-2" />
+        </div>
       </div>
     );
   }

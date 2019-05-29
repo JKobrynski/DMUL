@@ -45,7 +45,7 @@ class Navbar extends Component {
               Search
             </button>
           </form> */}
-          <ReactAudioPlayer src={PanPawel} autoPlay controls loop />
+          <ReactAudioPlayer src={Audio} autoPlay="true" controls loop />
         </div>
       </nav>
     );
