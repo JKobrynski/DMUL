@@ -4,6 +4,10 @@ import Togglable from "../common/Togglable";
 import MainTab from "./MainTab";
 
 import TFLogo from "../../assets/NNImages/TFLogo.png";
+import BP from "../../assets/NNImages/bp.jpg";
+import LP from "../../assets/NNImages/lp.png";
+import DP from "../../assets/NNImages/dp.png";
+import Neuron from "../../assets/NNImages/neuron.png";
 
 class Homepage extends Component {
   render() {
@@ -101,18 +105,51 @@ class Homepage extends Component {
                   <ul className="h4 text-justify">
                     <li className="h4 text-justify mt-3">
                       1943 &ndash; model neuronu McCullocha-Pittsa
+                      <Togglable type="outline-secondary" title="Neuron">
+                        <img src={Neuron} className="img-fluid" alt="Neuron" />
+                      </Togglable>
                     </li>
                     <li className="h4 text-justify mt-3">
                       1958 &ndash; perceptron, najprostsza sieć
                     </li>
                     <li className="h4 text-justify mt-3">
                       1969 &ndash; problem z perceptronem
+                      <Togglable
+                        type="outline-secondary"
+                        title="Liniowa separowalność"
+                      >
+                        <img
+                          src={LP}
+                          className="img-fluid"
+                          alt="Liniowa separowalność"
+                        />
+                      </Togglable>
                     </li>
                     <li className="h4 text-justify mt-3">
                       1986 &ndash; propagacja wsteczna
+                      <Togglable
+                        type="outline-secondary"
+                        title="Propagacja wsteczna"
+                      >
+                        <img
+                          src={BP}
+                          className="img-fluid"
+                          alt="Propagacja wsteczna"
+                        />
+                      </Togglable>
                     </li>
                     <li className="h4 text-justify mt-3">
                       2006 &ndash; uczenie głębokie
+                      <Togglable
+                        type="outline-secondary"
+                        title="Uczenie głębokie a maszynowe"
+                      >
+                        <img
+                          src={DP}
+                          className="img-fluid"
+                          alt="Deep learning"
+                        />
+                      </Togglable>
                     </li>
                   </ul>
                 </div>
